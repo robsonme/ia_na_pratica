@@ -53,10 +53,11 @@
       box-shadow: 0 8px 20px rgba(0,0,0,.35);
     }
     .card-livro img {
-      height: 280px;
-      object-fit: cover;
       width: 100%;
+      height: 280px;
+      object-fit: contain;   /* imagem inteira, sem corte */
       background-color: #D9D2B6;
+      display: block;
     }
     .card-livro .badge-turma {
       background-color: #4A4D3D;
@@ -122,13 +123,13 @@
       <!-- LIVRO 1 -->
       <div class="col-sm-6 col-lg-4 item-livro">
         <div class="card card-livro h-100">
-          <img src="COLE_LINK_DA_CAPA_AQUI" class="card-img-top" alt="Capa do livro: Título do livro 1">
+          <img src="img/O_Ultimo_Negativo.png" class="card-img-top" alt="Capa do livro: Título do livro 1">
           <div class="card-body d-flex flex-column">
-            <span class="badge badge-turma align-self-start mb-2">3º A · 2025</span>
-            <h3 class="h5 card-title titulo">Título do livro 1</h3>
-            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">Nome do(a) estudante</span></p>
-            <p class="card-text small flex-grow-1">Resumo curto do livro.</p>
-            <a href="COLE_LINK_DO_LIVRO_AQUI" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
+            <span class="badge badge-turma align-self-start mb-2">3º B · 2026</span>
+            <h3 class="h5 card-title titulo">O ÚLTIMO NEGATIVO</h3>
+            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">BRYAN ALVES</span></p>
+            <p class="card-text small flex-grow-1"></p>
+            <a href="https://seducsp-my.sharepoint.com/:b:/r/personal/robsonme_professor_educacao_sp_gov_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FBRYAN%20ALVES%20DA%20SILVA%2FO%5FUltimo%5FNegativo%5FLivro%5FCompleto%2D1%2Epdf&parent=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FBRYAN%20ALVES%20DA%20SILVA&share=cQqoAiS81DG0RL0Wx%2DorKLlxEgUC4Jn1Rb0WhK%5FztXvywwSFgQ" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
           </div>
         </div>
       </div>
@@ -136,13 +137,13 @@
       <!-- LIVRO 2 -->
       <div class="col-sm-6 col-lg-4 item-livro">
         <div class="card card-livro h-100">
-          <img src="COLE_LINK_DA_CAPA_AQUI" class="card-img-top" alt="Capa do livro: Título do livro 2">
+          <img src="img/o segredo da Nuvem que queria dançar-Capa.png" class="card-img-top" alt="Capa do livro: Título do livro 2">
           <div class="card-body d-flex flex-column">
-            <span class="badge badge-turma align-self-start mb-2">2º B · 2025</span>
-            <h3 class="h5 card-title titulo">Título do livro 2</h3>
-            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">Nome do(a) estudante</span></p>
-            <p class="card-text small flex-grow-1">Resumo curto do livro.</p>
-            <a href="COLE_LINK_DO_LIVRO_AQUI" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
+            <span class="badge badge-turma align-self-start mb-2">3º B · 2026</span>
+            <h3 class="h5 card-title titulo">O SEGREDO DA NUVEM QUE QUERIA DANÇAR</h3>
+            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">GRACIELA QUISPE BARRERA</span></p>
+            <p class="card-text small flex-grow-1"></p>
+            <a href="https://seducsp-my.sharepoint.com/:b:/r/personal/robsonme_professor_educacao_sp_gov_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FGRACIELA%20QUISPE%20BARRERA%2FO%20segredo%20da%20Nuvem%20que%20queria%20Dan%C3%A7ar%2Epdf&parent=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FGRACIELA%20QUISPE%20BARRERA&share=cQqJLxcJsjuyQLV5ZaFCowYJEgUCcy%5Fho52YyiAQ8JOmsSJ7Sg" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
           </div>
         </div>
       </div>
@@ -150,18 +151,109 @@
       <!-- LIVRO 3 -->
       <div class="col-sm-6 col-lg-4 item-livro">
         <div class="card card-livro h-100">
-          <img src="COLE_LINK_DA_CAPA_AQUI" class="card-img-top" alt="Capa do livro: Título do livro 3">
+          <img src="img/Capa_As_Marcas_do_Eclipse.png" class="card-img-top" alt="Capa do livro: Título do livro 3">
           <div class="card-body d-flex flex-column">
-            <span class="badge badge-turma align-self-start mb-2">1º C · 2025</span>
+            <span class="badge badge-turma align-self-start mb-2">1º C · 2026</span>
             <h3 class="h5 card-title titulo">Título do livro 3</h3>
-            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">Nome do(a) estudante</span></p>
-            <p class="card-text small flex-grow-1">Resumo curto do livro.</p>
-            <a href="COLE_LINK_DO_LIVRO_AQUI" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
+            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">JHONATAN SOARES ALVES</span></p>
+            <p class="card-text small flex-grow-1"></p>
+            <a href="https://seducsp-my.sharepoint.com/:b:/r/personal/robsonme_professor_educacao_sp_gov_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FJHONATAN%20SOARES%20ALVES%2FAs%20Marcas%20do%20Eclipse%20%E2%80%94%20HQ%2Epdf&parent=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FJHONATAN%20SOARES%20ALVES&share=cQpcgmTVmyJ4R5oXLH9GdGh7EgUCMmg2YR5Hs7bNLCYVkPbY4Q" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
           </div>
         </div>
       </div>
 
     </div>
+    <div class="row g-4  mt-2" id="acervo">
+
+      <!-- LIVRO 1 -->
+      <div class="col-sm-6 col-lg-4 item-livro">
+        <div class="card card-livro h-100">
+          <img src="img/O MAPA DAS TERRAS ADORMECIDAS.jpg" class="card-img-top" alt="Capa do livro: Título do livro 1">
+          <div class="card-body d-flex flex-column">
+            <span class="badge badge-turma align-self-start mb-2">3º F · 2026</span>
+            <h3 class="h5 card-title titulo">O MAPA DAS TERRAS ADORMECIDAS</h3>
+            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">JEAN  SANTOS</span></p>
+            <p class="card-text small flex-grow-1"></p>
+            <a href="https://seducsp-my.sharepoint.com/:b:/r/personal/robsonme_professor_educacao_sp_gov_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FJEAN%20GOMES%20SANTOS%2FO%5FMapa%5Fdas%5FTerras%5FAdormecidas%5FEdicao%5FEspecial%2Epdf&parent=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FJEAN%20GOMES%20SANTOS&share=cQqQpZ2YcYQYQJqSHuD7kV9LEgUCJqKHVfOsoG6jcIEXSEl6WA" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- LIVRO 2 -->
+      <div class="col-sm-6 col-lg-4 item-livro">
+        <div class="card card-livro h-100">
+          <img src="img/a_chave_de_aurora.jpg" class="card-img-top" alt="Capa do livro: Título do livro 2">
+          <div class="card-body d-flex flex-column">
+            <span class="badge badge-turma align-self-start mb-2">3º B · 2026</span>
+            <h3 class="h5 card-title titulo">A Chave de Aurora</h3>
+            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">MARIA EDUARDA e KAIQUE XAVIER </span></p>
+            <p class="card-text small flex-grow-1"></p>
+            <a href="https://seducsp-my.sharepoint.com/:b:/r/personal/robsonme_professor_educacao_sp_gov_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FKAIQUE%20XAVIER%20MENDON%C3%87A%2Fa%5Fchave%5Fde%5Faurora%5Fcom%5Fcapa%5F261026%5F095711%2Epdf&parent=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FKAIQUE%20XAVIER%20MENDON%C3%87A&share=cQqF7rbjpaJmTKeq9qJxJ0i0EgUCLC%2DbQQdkVcWi%5FQJRUKwg9g" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- LIVRO 3 -->
+      <div class="col-sm-6 col-lg-4 item-livro">
+        <div class="card card-livro h-100">
+          <img src="img/Entre Nós Dois.png" class="card-img-top" alt="Capa do livro: Título do livro 3">
+          <div class="card-body d-flex flex-column">
+            <span class="badge badge-turma align-self-start mb-2">3º D · 2026</span>
+            <h3 class="h5 card-title titulo">Entre Nós Dois</h3>
+            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">VITÓRIA LOURENÇO CATHARIN</span></p>
+            <p class="card-text small flex-grow-1"></p>
+            <a href="https://seducsp-my.sharepoint.com/:b:/r/personal/robsonme_professor_educacao_sp_gov_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FVIT%C3%93RIA%20LOUREN%C3%87O%20CATHARIN%2FEntre%5FNos%5FDois%5FLivro%5FCompleto%2Epdf&parent=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FVIT%C3%93RIA%20LOUREN%C3%87O%20CATHARIN&share=cQrNisYBjLEFSLYLkKQeimNFEgUC4rVtXFoPGcSpXB50NP5LoQ" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--  <div class="row g-4" id="acervo">
+
+      LIVRO 1 
+      <div class="col-sm-6 col-lg-4 item-livro">
+        <div class="card card-livro h-100">
+          <img src="COLE_LINK_DA_CAPA_AQUI" class="card-img-top" alt="Capa do livro: Título do livro 1">
+          <div class="card-body d-flex flex-column">
+            <span class="badge badge-turma align-self-start mb-2">3º A · 2026</span>
+            <h3 class="h5 card-title titulo">Título do livro 1</h3>
+            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">Nome do(a) estudante</span></p>
+            <p class="card-text small flex-grow-1"></p>
+            <a href="https://seducsp-my.sharepoint.com/:b:/r/personal/robsonme_professor_educacao_sp_gov_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FVIT%C3%93RIA%20LOUREN%C3%87O%20CATHARIN%2FEntre%5FNos%5FDois%5FLivro%5FCompleto%2Epdf&parent=%2Fpersonal%2Frobsonme%5Fprofessor%5Feducacao%5Fsp%5Fgov%5Fbr%2FDocuments%2FELETIVAS%2Flivros%2FVIT%C3%93RIA%20LOUREN%C3%87O%20CATHARIN&share=cQrNisYBjLEFSLYLkKQeimNFEgUC4rVtXFoPGcSpXB50NP5LoQ" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
+          </div>
+        </div>
+      </div>
+
+       LIVRO 2 
+      <div class="col-sm-6 col-lg-4 item-livro">
+        <div class="card card-livro h-100">
+          <img src="COLE_LINK_DA_CAPA_AQUI" class="card-img-top" alt="Capa do livro: Título do livro 2">
+          <div class="card-body d-flex flex-column">
+            <span class="badge badge-turma align-self-start mb-2">2º B · 2026</span>
+            <h3 class="h5 card-title titulo">Título do livro 2</h3>
+            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">Nome do(a) estudante</span></p>
+            <p class="card-text small flex-grow-1"></p>
+            <a href="COLE_LINK_DO_LIVRO_AQUI" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
+          </div>
+        </div>
+      </div>
+
+      LIVRO 3 
+      <div class="col-sm-6 col-lg-4 item-livro">
+        <div class="card card-livro h-100">
+          <img src="img/Entre Nós Dois.png" class="card-img-top" alt="Capa do livro: Título do livro 3">
+          <div class="card-body d-flex flex-column">
+            <span class="badge badge-turma align-self-start mb-2">3º D · 2026</span>
+            <h3 class="h5 card-title titulo">Entre Nós Dois</h3>
+            <p class="card-text mb-1"><strong>Autor(a):</strong> <span class="autor">VITÓRIA LOURENÇO CATHARIN</span></p>
+            <p class="card-text small flex-grow-1"></p>
+            <a href="COLE_LINK_DO_LIVRO_AQUI" target="_blank" rel="noopener" class="btn btn-dourado mt-2">Ler livro</a>
+          </div>
+        </div>
+      </div>
+
+    </div> -->
+
 
     <p id="semResultado" class="text-center mt-5 d-none">Nenhum livro encontrado para esta busca.</p>
 
